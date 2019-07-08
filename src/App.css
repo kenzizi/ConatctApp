@@ -1,0 +1,66 @@
+.Searchbar-input{
+  width: 90%;
+  padding: 10px;
+  margin: 10px 10px 30px
+}
+.card-container{
+  border: 1px solid rgba(19, 82, 90, 0.363);
+  width: 350px;
+  height: 250px;
+  text-align: center;
+  border-radius: 20px;
+  margin: 20px;
+  box-shadow: 5px 2px 20px rgba(19, 82, 90, 0.363);
+  transition: 0.5s;
+  background-color: #80D6E8
+
+
+}
+.card-container:hover {
+  box-shadow: 5px 2px 30px rgba(2, 44, 49, 0.664);
+  transition: 0.5s
+
+}
+.bottom-section{
+  display: flex;
+  justify-content: center
+}
+.card-words-container{
+  background-color: rgba(127, 255, 212, 0.301)
+}
+.card-words-container:hover{
+  background-color: rgba(27, 245, 172, 0.555);
+  cursor: pointer;
+}
+.card-titles{
+  font-weight: bold;
+}
+.card-response{
+  margin-left: 5px;
+  letter-spacing: 2px
+
+}
+.card-buttons {
+  padding: 7px 15px;
+  background-color: #dc3545;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  margin-left: 5px;
+
+
+}
+.card-buttons:hover{
+  background-color:  #af2f3c;
+
+}
+.modal-inputs{
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 5px
+}
+.contacts-container {
+  display: flex;
+  justify-content: center
+}
